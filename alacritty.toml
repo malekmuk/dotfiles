@@ -1,7 +1,10 @@
-import = ["~/.config/alacritty/themes/themes/ayu_dark.toml"]
+import = ["~/.config/alacritty/themes/themes/catppuccin_mocha.toml"]
+
+[env]
+term = "xterm-256color"
 
 [font]
-size = 16
+size = 12
 
 [font.normal]
 family = "GoMono Nerd Font"
@@ -9,3 +12,12 @@ family = "GoMono Nerd Font"
 [window]
 decorations = "none"
 startup_mode = "Maximized"
+
+[scrolling]
+history = 20000
+multiplier = 5
+
+#[cursor]
+#style = { shape = "Beam", blinking = "Always" }
+#blink_interval = 750
+

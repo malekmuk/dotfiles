@@ -6,6 +6,7 @@ return {
             servers = {
                 clangd = {},
                 rust_analyzer = {},
+                gopls = {},
             },
         },
     },

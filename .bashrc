@@ -121,3 +121,5 @@ export EDITOR=nvim
 
 export XDG_CONFIG_HOME=~/.config
 . "$HOME/.cargo/env"
+
+alias xve="cd ~/code/projects/xve/"
