@@ -7,7 +7,7 @@ term = "xterm-256color"
 size = 12
 
 [font.normal]
-family = "GoMono Nerd Font"
+family = "CommitMono Nerd Font"
 
 [window]
 decorations = "none"
