@@ -7,6 +7,7 @@ local opt = vim.opt
 -- UI
 opt.number = true
 opt.relativenumber = false
+opt.list = false -- don't show dashes for whitespaces/tabs
 
 -- Tabs, Indent
 opt.expandtab = true
