@@ -12,7 +12,7 @@ opt.list = false -- don't show dashes for whitespaces/tabs
 -- Tabs, Indent
 opt.expandtab = true
 opt.shiftwidth = 4
-opt.tabstop = 4
+opt.tabstop = 8
 opt.smartindent = true
 
 -- formatting

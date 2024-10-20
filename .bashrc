@@ -115,6 +115,7 @@ if ! shopt -oq posix; then
 	fi
 fi
 
+alias list=eza
 alias v=nvim
 export VISUAL=nvim
 export EDITOR=nvim
