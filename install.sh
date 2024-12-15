@@ -8,7 +8,7 @@ PKG_UPGRADE="upgrade -y"
 PKG_OPTS="install -y"          # Options to pass to the package manager (e.g., '-y' for apt)
 INSTALL_LIST=(
     "curl" "git" "vim" "neovim" "helix" "ripgrep" "alacritty" "tmux"
-    "clang" "rustup" "htop" "btop" "neofetch"
+    "clang" "cmake" "rustup" "htop" "btop" "neofetch"
 )  # List of apps to install
 
 # Arrays to store successful and failed installations
