@@ -1,17 +1,18 @@
-import = ["~/.config/alacritty/themes/themes/catppuccin_mocha.toml"]
+import = ["~/.config/alacritty/themes/catppuccin-mocha.toml"]
 
 [env]
 term = "xterm-256color"
 
 [font]
-size = 10
+size = 11
 
 [font.normal]
-family = "CommitMono Nerd Font"
+family = "JetBrainsMono Nerd Font"
 
 [window]
 decorations = "none"
-startup_mode = "Maximized"
+#startup_mode = "Maximized"
+opacity = 0.85
 
 [scrolling]
 history = 20000
@@ -21,3 +22,6 @@ multiplier = 5
 #style = { shape = "Beam", blinking = "Always" }
 #blink_interval = 750
 
+[window.padding]
+x = 5
+y = 5

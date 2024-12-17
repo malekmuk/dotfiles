@@ -1,1 +1,7 @@
-theme = "catppuccin_mocha"
+theme = "base16_transparent"
+
+[editor]
+color-modes = true
+
+[editor.cursor-shape]
+insert = "bar"
