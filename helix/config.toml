@@ -1,5 +1,4 @@
-theme = "catppuccin_mocha"
-# theme = "base16_transparent"
+theme = "everforest_dark"
 
 [editor]
 line-number = "relative"
@@ -7,6 +6,9 @@ true-color = true
 color-modes = true
 end-of-line-diagnostics = "hint"
 bufferline = "multiple"
+
+[editor.statusline]
+left = ["mode", "spinner", "version-control", "spacer", "separator", "file-name", "read-only-indicator", "file-modification-indicator"]
 
 [editor.cursor-shape]
 normal = "block"
@@ -16,5 +18,12 @@ normal = "block"
 render = true
 
 [editor.inline-diagnostics]
-cursor-line = "error"
+cursor-line = "warning"
+other-lines = "disable"
 
+[keys.normal.space.i]
+c = ":toggle inline-diagnostics.cursor-line warning disable"
+o = ":toggle inline-diagnostics.other-lines hint disable"
+
+[keys.normal.space]
+o = ":echo %sh{git blame -L %{cursor_line},+1 %{buffer_name}}"
