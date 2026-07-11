@@ -1,0 +1,118 @@
+"attribute" = "yellow"
+
+"type" = "yellow"
+"type.enum.variant" = "yellow"
+
+"constructor" = "yellow"
+
+"constant" = "red"
+"constant.character" = "red"
+"constant.character.escape" = "teal"
+
+"string" = "forestgreen"
+"string.regexp" = "pink"
+
+"comment" = "comments"
+
+"variable" = "text"
+"variable.parameter" = "purple"
+"variable.builtin" = "pink"
+
+"punctuation" = "brown"
+"punctuation.special" = "pink"
+
+"keyword" = { fg = "orange", modifiers = ["bold"] }
+
+"function" = "seagreen"
+
+"tag" = "red"
+
+"diff.plus" = "seagreen"
+"diff.minus" = "red"
+"diff.delta" = "blue"
+
+"ui.background" = { fg = "text", bg = "background" }
+
+"ui.linenr" = { fg = "linenr" }
+"ui.linenr.selected" = { fg = "linenractive" }
+
+"ui.text" = "text"
+"ui.text.focus" = { fg = "text", bg = "surface", modifiers = ["bold"] }
+
+"ui.virtual.indent-guide" = "linenr"
+"ui.virtual.inlay-hint" = { fg = "comments", bg = "surface" }
+
+"ui.popup" = { fg = "yellow", bg = "surface"}
+"ui.window" = { fg = "surface" }
+"ui.help" = { fg = "yellow", bg = "surface" }
+
+"ui.selection" = { bg = "highlight" }
+
+"ui.cursor" = { fg = "navy", bg = "navy" }
+"ui.cursor.primary" = { fg = "white", bg = "navy" }
+"ui.cursor.match" = { fg = "navy", modifiers = ["bold"] }
+
+"ui.cursor.primary.normal" = { fg = "white", bg = "navy" }
+"ui.cursor.primary.insert" = { fg = "white", bg = "orange" }
+"ui.cursor.primary.select" = { fg = "white", bg = "subtext2" }
+
+"ui.cursor.normal" = { fg = "white", bg = "navy" }
+"ui.cursor.insert" = { fg = "white", bg = "navy" }
+"ui.cursor.select" = { fg = "white", bg = "navy" }
+
+"ui.cursorline.primary" = { bg = "navy" }
+
+"ui.statusline" = { fg = "orange", bg = "subtext" }
+"ui.statusline.inactive" = { fg = "orange", bg = "subtext" }
+"ui.statusline.normal" = { fg = "white", bg = "navy", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "white", bg = "orange", modifiers = ["bold"]  }
+"ui.statusline.select" = { fg = "white", bg = "subtext2", modifiers = ["bold"]  }
+
+"ui.highlight" = { bg = "black", modifiers = ["bold"] }
+
+"ui.menu" = { fg = "yellow", bg = "surface" }
+"ui.menu.selected" = { fg = "text", bg = "surface", modifiers = ["bold"] }
+
+"diagnostic.error" = { underline = { color = "red", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "yellow", style = "curl" } }
+"diagnostic.info" = { underline = { color = "blue", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "teal", style = "curl" } }
+
+"markup.heading.marker" = { fg = "orange", modifiers = ["bold"] }
+"markup.list" = "red"
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link.url" = { fg = "forestgreen", modifiers = ["underlined"] }
+"markup.link.text" = "purple"
+
+error = "red"
+warning = "yellow"
+info = "blue"
+hint = "teal"
+
+[palette]
+comments = "#8D867B"
+yellow = "#664400"
+red = "#660000"
+slate = "#587182"
+navy = "#3e454e"
+invalid = "#dc322f"
+orange = "#9a4e32"
+brown = "#585550"
+pink = "#93255b"
+seagreen = "#2c5851"
+purple = "#490049"
+forestgreen = "#5b5c31"
+blue = "#43596f"
+teal = "#407875"
+
+linenr = "#cac0a9"
+linenractive = "#3a485b"
+text = "#3e454e"
+foreground = "#3e454e"
+background = "#fdf1d4"
+background2 = "#fdf6e5" # what is this used for?
+surface = "#f2e5bc"
+highlight = "#d6d0bf"
+subtext1 = "#fce9bc"
+subtext2 = "#97907f"
